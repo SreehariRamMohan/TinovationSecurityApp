@@ -29,6 +29,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ProfileV
     private String username;
     private String picturename;
 
+
     public ProfileAdapter(List<ProfileInfo> contactList, String username, String picturename) {
         this.contactList = contactList;
         this.username = username;
